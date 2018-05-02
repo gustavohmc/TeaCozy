@@ -67,6 +67,10 @@ h2, h4{
   padding: 10px;
 }
 
+h2{
+  font-weight: bold;
+}
+
 #featured{
   width: 1000px;
   height: 700px;
@@ -99,4 +103,69 @@ h2, h4{
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+
+#locations{
+  background-image: url("file:///C:/Users/Gusta/Desktop/coding/PROJECTS/TeaCozy/resources/images/img-locations-background.jpg");
+  width: 1200px;
+  height: 500px;
+  display: block;
+  /* position: absolute; */
+}
+
+#locations h2{
+  display: inline;
+  position:relative;
+  top: 60px;
+  background: none;
+
+}
+
+.locations_items{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.location{
+  margin: 5px 20px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  opacity: 1;
+  height: 300px;
+  width: 300px;
+}
+
+.location p,
+.location h3{
+  display: block;
+  padding: 20px;
+}
+
+#contact{
+  height: 200px;
+  background-color: black;
+  display: block;
+  margin-top: 5px;
+  text-align:
+  width: 1200px;
+}
+
+#contact h2{
+  text-align: center;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+#contact p,
+#contact h5{
+  margin-top: 30px;
+  display: block;
+  text-align: center;
+  width: 1200px;
 }
